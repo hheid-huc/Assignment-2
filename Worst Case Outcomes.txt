@@ -1,0 +1,65 @@
+runfile('/Users/johnmhanson/Desktop/MSDS 460 Assignment2 Expected .py',
+wdir='/Users/johnmhanson/Desktop')
+Welcome to the CBC MILP Solver
+Version: 2.10.3
+Build Date: Dec 15 2019
+
+command line - /Users/johnmhanson/anaconda3/lib/python3.11/site-
+packages/pulp/solverdir/cbc/osx/64/cbc
+
+/var/folders/_g/pgp264y939v3l0qblxx39czw0000gn/T/04d81527aa844887ad5abaf061366fe8-
+pulp.mps timeMode elapsed branch printingOptions all solution
+/var/folders/_g/pgp264y939v3l0qblxx39czw0000gn/T/04d81527aa844887ad5abaf061366fe8-
+pulp.sol (default strategy 1)
+At line 2 NAME MODEL
+At line 3 ROWS
+At line 39 COLUMNS
+At line 123 RHS
+At line 158 BOUNDS
+At line 159 ENDATA
+Problem MODEL has 34 rows, 30 columns and 68 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 0 (-34) rows, 0 (-30) columns and 0 (-68) elements
+Empty problem - 0 rows, 0 columns and 0 elements
+Optimal - objective value 8367
+After Postsolve, objective 8367, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 8367 - 0 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds): 0.00 (Wallclock seconds): 0.01
+Critical Path time:
+A starts at time 0
+B starts at time 0
+H ends at 1432.0 days in duration
+Solution variable values:
+end_A = 6.0
+end_B = 12.0
+end_C = 11.0
+end_D1 = 23.0
+end_D2 = 306.0
+end_D3 = 263.0
+end_D4 = 574.0
+end_D5 = 584.0
+end_D6 = 764.0
+end_D7 = 974.0
+end_D8 = 978.0
+end_E = 23.0
+end_F = 1378.0
+end_G = 1039.0
+end_H = 1432.0
+
+start_A = 0.0
+start_B = 0.0
+start_C = 6.0
+start_D1 = 6.0
+start_D2 = 23.0
+start_D3 = 23.0
+start_D4 = 306.0
+start_D5 = 574.0
+start_D6 = 574.0
+start_D7 = 764.0
+start_D8 = 974.0
+start_E = 12.0
+start_F = 978.0
+start_G = 978.0
+start_H = 1378.0
