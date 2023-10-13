@@ -11,18 +11,18 @@ tasks = {
     'A': {'duration': 5, 'cost': 500},
     'B': {'duration': 10, 'cost': 1000},
     'C': {'duration': 5, 'cost': 500},
-    'D1': {'duration': 16, 'cost': 1600},
-    'D2': {'duration': 240, 'cost': 24000},
-    'D3': {'duration': 200, 'cost': 20000},
-    'D4': {'duration': 220, 'cost': 22000},
+    'D1': {'duration': 15, 'cost': 1500},
+    'D2': {'duration': 209, 'cost': 20900},
+    'D3': {'duration': 188, 'cost': 18800},
+    'D4': {'duration': 202, 'cost': 20200},
     'D5': {'duration': 8, 'cost': 800},
-    'D6': {'duration': 160, 'cost': 16000},
-    'D7': {'duration': 160, 'cost': 16000},
+    'D6': {'duration': 158, 'cost': 15800},
+    'D7': {'duration': 139, 'cost': 13900},
     'D8': {'duration': 4, 'cost': 400},
     'E': {'duration': 10, 'cost': 1000},
-    'F': {'duration': 320, 'cost': 32000},
-    'G': {'duration': 45, 'cost': 45000},
-    'H': {'duration': 45, 'cost': 45000}
+    'F': {'duration': 298, 'cost': 29800},
+    'G': {'duration': 40, 'cost': 40000},
+    'H': {'duration': 42, 'cost': 42000}
 }
 # create a list of tasks
 tasks_list = list(tasks.keys())
