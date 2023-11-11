@@ -1,0 +1,37 @@
+
+
+
+                                    & C:/Users/heidi/anaconda3/python.exe c:/Users/heidi/OneDrive/Desktop/Classification_Models_sim1.py
+<class 'pandas.core.frame.DataFrame'>
+Index: 200000 entries, 0 to 199999
+Data columns (total 7 columns):
+ #   Column               Non-Null Count   Dtype
+---  ------               --------------   -----
+ 0   publishes            200000 non-null  float64
+ 1   ai                   200000 non-null  float64
+ 2   at3                  200000 non-null  int64
+ 3   at4                  200000 non-null  float64
+ 4   at5                  200000 non-null  float64
+ 5   issue_response_time  200000 non-null  float64
+ 6   conversion           200000 non-null  int64
+dtypes: float64(5), int64(2)
+memory usage: 12.2 MB
+Accuracy: 0.80555
+Precision: 0.7810193114037678
+Recall: 0.9864985827241534
+F-1 Score: 0.8718151554105276
+(None, None, None, None)
+{'priors': None, 'var_smoothing': 1e-09}
+Accuracy: 0.80459
+Precision: 0.7795542578617093
+Recall: 0.9878114277189318
+F-1 Score: 0.8714128725315365
+(None, None, None, None)
+{'priors': None, 'var_smoothing': 1e-09}
+Accuracy: 0.80467
+Precision: 0.7797990032635461
+Recall: 0.9874235416977473
+F-1 Score: 0.871414747180841
+(None, None, None, None)
+{'priors': None, 'var_smoothing': 1e-09}
+PS C:\Users\heidi\OneDrive\Desktop> 
