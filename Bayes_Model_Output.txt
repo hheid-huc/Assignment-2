@@ -1,0 +1,4 @@
+PS C:\Users\heidi\OneDrive\Desktop> & C:/Users/heidi/anaconda3/python.exe c:/Users/heidi/OneDrive/Desktop/Bayes_Model_A4.py
+Time taken to create DataFrame: 0.05022835731506348 seconds
+Time taken to calculate utility: 0.01292109489440918 seconds
+PS C:\Users\heidi\OneDrive\Desktop> 
