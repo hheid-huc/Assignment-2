@@ -37,8 +37,7 @@ for i in range(n):
     else:
         ai.append(a2_more_exp[i])
 
-# Simple attribute addition. We probably should add several of these.
-# Note: If you add an attribute that allows for negative values, we might have to decide if that is appropriate or not.
+# attributes
 at3 = np.random.choice([0, 1, 2, 3], n, p=[0.3, 0.4, 0.1, 0.2])
 at4 = np.random.normal(4, 1, n)
 at5 = np.random.uniform(0, 10, n)
