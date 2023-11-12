@@ -3,6 +3,7 @@
 
                                     & C:/Users/heidi/anaconda3/python.exe c:/Users/heidi/OneDrive/Desktop/Classification_Models_sim1.py
 <class 'pandas.core.frame.DataFrame'>
+Data loading time: 0.8912 seconds
 Index: 200000 entries, 0 to 199999
 Data columns (total 7 columns):
  #   Column               Non-Null Count   Dtype
