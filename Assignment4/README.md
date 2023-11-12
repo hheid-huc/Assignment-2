@@ -30,7 +30,7 @@ With precision we see the Logistic regression decrease by .001 when the training
 In regards to our study, we did not utilize a Monte Carlo simulation across different database systems, but rather to compare different modeling tools in a singular language, python.While Logistic Regression looks at the probability of a binary outcome, the Gaussian Naïve Bayes is a probabilistic classification algorithm with strong independence assumptions. In the case of what we are attempting to measure via utilization of a binary threshold concerning consumer behavior, it is no surprise that the Logistic Regression model outperformed the Bayes. 
 Shifting focus  to understanding the extent in which a model focused on predicting probability is beneficial, our group feels confident the benchmarks chosen were necessary in order to exhibit an accurate simulation of expected results. When attempting to approach a predictive model problem, it is important to take note of previous literature and research on the task at hand to ensure appropriate methods are being employed. At the same time, only constructing this model in a singular language could be considered a limitation as employing other visualization softwares could provide more insight on discrepancies that are being overlooked by using one language.
 
-## Conclustion
+## Conclusion
 In conclusion, if the study were to be conducted again, it would be recommended to either incorporate more than two models to predict consumer behavior such as a neural network or Linear Discriminant Analysis or even other languages like SQL, or R. It could also be beneficial to add more parameters to the benchmark.
 
 ## Bibliography 
