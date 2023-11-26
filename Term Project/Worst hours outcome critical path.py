@@ -3,22 +3,22 @@ import pulp
 from pulp import LpVariable, LpProblem, LpMaximize, LpStatus, value, LpMinimize, lpSum
 
 expected_tasks = {
-    'T2': {'duration': 19, 'cost': 19000},
-    'T3': {'duration': 49, 'cost': 49000},
-    'T4': {'duration': 1, 'cost': 1000},
-    'T5': {'duration': 2, 'cost': 2000},
-    'T6': {'duration': 20, 'cost': 20000},
-    'T7': {'duration': 12, 'cost': 12000},
-    'T8': {'duration': 1, 'cost': 1000},
-    'T9': {'duration': 38, 'cost': 38000},
-    'T10': {'duration': 62, 'cost': 62000},
-    'T11': {'duration': 2, 'cost': 3000},
-    'T12': {'duration': 90, 'cost': 90000},
-    'T13': {'duration': 72, 'cost': 7200},
-    'T14': {'duration': 120, 'cost': 12000},
-    'T15': {'duration': 150, 'cost': 200000},
-    'T16': {'duration': 120, 'cost':120000},
-    'T17': {'duration': 240, 'cost': 240000}
+    'T2': {'duration': 25, 'cost': 25000},
+    'T3': {'duration': 60, 'cost': 60000},
+    'T4': {'duration': 5, 'cost': 5000},
+    'T5': {'duration': 10, 'cost': 10000},
+    'T6': {'duration': 30, 'cost': 300000},
+    'T7': {'duration': 20, 'cost': 20000},
+    'T8': {'duration': 5, 'cost': 5000},
+    'T9': {'duration': 50, 'cost': 50000},
+    'T10': {'duration': 75, 'cost': 75000},
+    'T11': {'duration': 6, 'cost': 6000},
+    'T12': {'duration': 200, 'cost': 200000},
+    'T13': {'duration': 90, 'cost': 90000},
+    'T14': {'duration': 180, 'cost': 180000},
+    'T15': {'duration': 220, 'cost': 220000},
+    'T16': {'duration': 600, 'cost':600000},
+    'T17': {'duration': 360, 'cost': 360000}
 }
 expected_tasks_list = list(expected_tasks.keys())
 precedences = {'T2':[],
