@@ -1,7 +1,7 @@
 import pandas as pd
 import pulp
 from pulp import LpVariable, LpProblem, LpMaximize, LpStatus, value, LpMinimize, lpSum
-
+#These are a highlevel view of the tasks needed to complete the anticancer drug discovery along with their time and cost estimates
 expected_tasks = {
     'T2': {'duration': 19, 'cost': 19000},
     'T3': {'duration': 49, 'cost': 49000},
@@ -20,6 +20,7 @@ expected_tasks = {
     'T16': {'duration': 120, 'cost':120000},
     'T17': {'duration': 240, 'cost': 240000}
 }
+#Tasks dependent on preceding tasks to be completed before beginning
 expected_tasks_list = list(expected_tasks.keys())
 precedences = {'T2':[],
                'T3': [],
@@ -53,7 +54,7 @@ for task in expected_tasks_list:
 prob_exp2 += lpSum([end_times_expected[task] for task in expected_tasks_list])
 
 status = prob_exp2.solve()
-# Print the results
+# Print the results-Identifies tasks that start at time 0 (tasks that are at the beginning of the project) and then finds the maximum end time among these tasks
 print("Critical Path time for Expected Time Estimates:")
 critical_path_tasks = [task for task in expected_tasks_list if value(start_times_expected[task]) == 0]
 critical_path_end_time = max([value(end_times_expected[task]) for task in critical_path_tasks])
