@@ -1,0 +1,52 @@
+Problem MODEL has 30 rows, 32 columns and 60 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 1 (-29) rows, 1 (-31) columns and 1 (-59) elements
+0  Obj 3400.9 Primal inf 0.099999 (1)
+1  Obj 3401
+Optimal - objective value 3401
+After Postsolve, objective 3401, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 3401 - 1 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.01   (Wallclock seconds):       0.01
+
+Critical Path time for Expected Time Estimates:
+T2 is on the critical path and ends at 90.0 hours in duration
+T3 is on the critical path and ends at 90.0 hours in duration
+T8 is on the critical path and ends at 90.0 hours in duration
+T12 is on the critical path and ends at 90.0 hours in duration
+
+Solution variable values:
+end_T10 = 170.0
+end_T11 = 110.0
+end_T12 = 90.0
+end_T13 = 242.0
+end_T14 = 362.0
+end_T15 = 512.0
+end_T16 = 632.0
+end_T17 = 872.0
+end_T2 = 19.0
+end_T3 = 49.0
+end_T4 = 50.0
+end_T5 = 52.0
+end_T6 = 70.0
+end_T7 = 62.0
+end_T8 = 1.0
+end_T9 = 108.0
+start_T10 = 108.0
+start_T11 = 108.0
+start_T12 = 0.0
+start_T13 = 170.0
+start_T14 = 242.0
+start_T15 = 362.0
+start_T16 = 512.0
+start_T17 = 632.0
+start_T2 = 0.0
+start_T3 = 0.0
+start_T4 = 49.0
+start_T5 = 50.0
+start_T6 = 50.0
+start_T7 = 50.0
+start_T8 = 0.0
+start_T9 = 70.0
+PS C:\Users\heidi\OneDrive\Desktop> 
