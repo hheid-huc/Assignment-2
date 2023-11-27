@@ -18,10 +18,10 @@ Option for printingOptions changed from normal to all
 Total time (CPU seconds):       0.03   (Wallclock seconds):       0.03
 
 Critical Path time for Expected Time Estimates:
-T2 is on the critical path and ends at 120.0 days in duration
-T3 is on the critical path and ends at 120.0 days in duration
-T8 is on the critical path and ends at 120.0 days in duration
-T12 is on the critical path and ends at 120.0 days in duration
+T2 is on the critical path and ends at 120.0 hours in duration
+T3 is on the critical path and ends at 120.0 hours in duration
+T8 is on the critical path and ends at 120.0 hours in duration
+T12 is on the critical path and ends at 120.0 hours in duration
 
 Solution variable values:
 end_T10 = 146.0
