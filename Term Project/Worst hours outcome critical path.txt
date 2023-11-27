@@ -8,7 +8,7 @@ Optimal objective 5616 - 1 iterations time 0.002, Presolve 0.00
 Option for printingOptions changed from normal to all
 Total time (CPU seconds):       0.02   (Wallclock seconds):       0.02
 
-Critical Path time for Expected Time Estimates:
+Critical Path time for Worst Time Estimates:
 T2 is on the critical path and ends at 200.0 hours in duration
 T3 is on the critical path and ends at 200.0 hours in duration
 T8 is on the critical path and ends at 200.0 hours in duration
