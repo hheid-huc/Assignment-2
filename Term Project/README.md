@@ -7,7 +7,7 @@ Northwestern University MSDS 460 Term Assignment
 ## Abstract
 In the context of drug development and discovery, researchers are able to utilize national
 federal resource supercomputers to find non biologic lead compounds able to target druggable
-cancer cells. Without the use of supercomputers at Argonne National Labs, scientists take weeks
+cancer cells. Without the use of AI scientists take weeks
 to come up with 5 lead chemical compounds but, with AI driven models and the use of
 supercomputers scientists are able to have billions of possibilities offered to them in one hour.
 This computational stage of drug discovery is costly and requires funding via grant awards. The
